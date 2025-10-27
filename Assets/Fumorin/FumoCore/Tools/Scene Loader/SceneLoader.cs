@@ -42,14 +42,62 @@ namespace FumoCore.Tools
                 Destroy(gameObject);
             }
         }
-
         private void Start()
         {
-            if (startingScene != null)
-                LoadScenePair(startingScene, null);
             _initialScene = SceneManager.GetActiveScene();
-        }
 
+            if (startingScene == null)
+                return;
+
+            string currentName = _initialScene.name;
+            string mainName = startingScene.MainScene != null ? startingScene.MainScene.GetSceneName() : string.Empty;
+            bool isMain = string.Equals(currentName, mainName, StringComparison.OrdinalIgnoreCase);
+            bool isAdditive = startingScene.AdditiveScenes.Any(s =>
+                string.Equals(currentName, s.GetSceneName(), StringComparison.OrdinalIgnoreCase));
+
+            if (isMain)
+            {
+                _currentScenePair = startingScene;
+                foreach (var additive in startingScene.AdditiveScenes)
+                {
+                    if (!_loadedAdditives.Any(s => s.GetSceneName() == additive.GetSceneName()))
+                    {
+                        StartCoroutine(LoadScene(additive));
+                        _loadedAdditives.Add(additive);
+                    }
+                }
+                if (loadingScreen != null) loadingScreen.SetActive(false);
+            }
+            else if (isAdditive)
+            {
+                _currentScenePair = startingScene;
+
+                var existingAdditiveRef = startingScene.AdditiveScenes.FirstOrDefault(s =>
+                    string.Equals(s.GetSceneName(), currentName, StringComparison.OrdinalIgnoreCase));
+
+                if (existingAdditiveRef != null)
+                    _loadedAdditives.Add(existingAdditiveRef);
+
+                if (startingScene.MainScene != null)
+                    StartCoroutine(LoadScene(startingScene.MainScene, true));
+
+                foreach (var additive in startingScene.AdditiveScenes)
+                {
+                    if (!string.Equals(additive.GetSceneName(), currentName, StringComparison.OrdinalIgnoreCase) &&
+                        !_loadedAdditives.Any(s => s.GetSceneName() == additive.GetSceneName()))
+                    {
+                        StartCoroutine(LoadScene(additive));
+                        _loadedAdditives.Add(additive);
+                    }
+                }
+
+                if (loadingScreen != null) loadingScreen.SetActive(false);
+            }
+            else
+            {
+                LoadScenePair(startingScene, null);
+            }
+        }
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
         private static void ResetStatics()
         {
@@ -108,23 +156,23 @@ namespace FumoCore.Tools
             IEnumerator TrackProgress(IEnumerator operation)
             {
                 AsyncOperation async = null;
-
                 while (operation.MoveNext())
                 {
                     if (operation.Current is AsyncOperation op)
                         async = op;
 
-                    // Normalize progress (0 → 1 instead of 0 → 0.9)
                     float opProgress = async != null ? Mathf.Clamp01(async.progress / 0.9f) : 0f;
                     float totalProgress = (finishedOps + opProgress) / totalOps;
                     UpdateLoadingText(totalProgress);
-
                     yield return operation.Current;
                 }
 
                 finishedOps++;
                 UpdateLoadingText((float)finishedOps / totalOps);
             }
+            string currentSceneName = SceneManager.GetActiveScene().name;
+            bool skipMainReload = pair.MainScene != null &&
+                                  string.Equals(pair.MainScene.GetSceneName(), currentSceneName, StringComparison.OrdinalIgnoreCase);
 
             foreach (var oldAdditive in _loadedAdditives.ToList())
             {
@@ -136,15 +184,18 @@ namespace FumoCore.Tools
                 }
             }
 
-            if (_currentScenePair != null && _currentScenePair.MainScene.GetSceneName() != pair.MainScene.GetSceneName())
+            if (_currentScenePair != null && !skipMainReload)
             {
                 var oldMain = _currentScenePair.MainScene;
-                if (IsSceneLoaded(oldMain))
+                if (oldMain != null && IsSceneLoaded(oldMain))
                     yield return StartCoroutine(TrackProgress(UnloadScene(oldMain)));
             }
 
-            if (!IsSceneLoaded(pair.MainScene))
+            if (!skipMainReload && pair.MainScene != null && !IsSceneLoaded(pair.MainScene))
                 yield return StartCoroutine(TrackProgress(LoadScene(pair.MainScene, true)));
+            else if (skipMainReload)
+                SceneManager.SetActiveScene(SceneManager.GetActiveScene());
+
 
             foreach (var additive in pair.AdditiveScenes)
             {
@@ -155,15 +206,9 @@ namespace FumoCore.Tools
                 }
             }
 
-            if (_currentScenePair == null && _initialScene.IsValid() && _initialScene.isLoaded)
-            {
-                bool isInPair = pair.Scenes.Any(s => s.GetSceneName() == _initialScene.name);
-                if (!isInPair && SceneManager.sceneCount > 1)
-                    yield return StartCoroutine(TrackProgress(UnloadScene(_initialScene)));
-            }
-
             UpdateLoadingText(1f);
             yield return null;
+
             WhenFinishedLoadingAdditives?.Invoke();
 
             _currentScenePair = pair;

@@ -212,6 +212,13 @@ namespace Fumorin
             IsHighscorePotentiallyOutOfSync = true;
             LoadHighScore();
         }
+        public static void RequestScoreRefresh()
+        {
+            Debug.Log("T");
+            IsHighscorePotentiallyOutOfSync = true;
+            LoadHighScore();
+            AddScore(0d, false);
+        }
         public static double LoadHighScore()
         {
             ResyncHighscore();

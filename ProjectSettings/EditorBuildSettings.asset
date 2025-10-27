@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Chireinia/Scenes/Levels/Chireinia Level.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Chireinia/Scenes/Extras/Chireinia Background.unity
+    guid: b85b51868dd0a874dad1ff811b7b56b4
+  - enabled: 1
+    path: Assets/Chireinia/Scenes/Extras/Chireinia Handlers.unity
+    guid: 4c58b091da5d9b14b8732a5a06084632
+  - enabled: 1
+    path: Assets/Chireinia/Scenes/Extras/Chireinia UI.unity
+    guid: 0c634711660986e428abecdfe5fcd117
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 2e64ba8b144225e40a62293b83924c1a, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

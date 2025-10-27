@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4ad39058c7363e409b25b50e44cbed4, type: 3}
+  m_Name: Chireinia Test Game Scene
+  m_EditorClassIdentifier: 
+  mainScene:
+    sceneAsset: {fileID: 102900000, guid: 8c9cfa26abfee488c85f1582747f6a02, type: 3}
+    scenePath: Assets/Chireinia/Scenes/Levels/Chireinia Level.unity
+  additiveScenes:
+  - sceneAsset: {fileID: 102900000, guid: 0c634711660986e428abecdfe5fcd117, type: 3}
+    scenePath: Assets/Chireinia/Scenes/Extras/Chireinia UI.unity
+  - sceneAsset: {fileID: 102900000, guid: b85b51868dd0a874dad1ff811b7b56b4, type: 3}
+    scenePath: Assets/Chireinia/Scenes/Extras/Chireinia Background.unity
+  - sceneAsset: {fileID: 102900000, guid: 4c58b091da5d9b14b8732a5a06084632, type: 3}
+    scenePath: Assets/Chireinia/Scenes/Extras/Chireinia Handlers.unity

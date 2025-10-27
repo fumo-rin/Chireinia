@@ -115,7 +115,7 @@ namespace Fumorin.Units
     #region Look Flip
     public partial class FumoUnit
     {
-        public void LookFlipDirection(Transform moveFlipAnchor, Vector2 target)
+        public void FlipTowardsWorldPosition(Transform moveFlipAnchor, Vector2 target)
         {
             Vector2 input = target - CurrentPosition;
             if (moveFlipAnchor != null && input.normalized.x.Absolute() > 0.25f)
@@ -126,14 +126,27 @@ namespace Fumorin.Units
                     moveFlipAnchor.localScale.z);
             }
         }
+        protected void FlipWithMovement(Vector2 input)
+        {
+            if (moveFlipAnchor is Transform t)
+            {
+                if (moveFlipAnchor != null && input.normalized.x.Absolute() > 0.25f)
+                {
+                    moveFlipAnchor.localScale =
+                        new(input.x.Sign() * moveFlipAnchor.localScale.x.Absolute(),
+                        moveFlipAnchor.localScale.y,
+                        moveFlipAnchor.localScale.z);
+                }
+            }
+        }
     }
     #endregion
     #region Mover
     public partial class FumoUnit
     {
         float nextMoveTime;
-        [SerializeField] Animator moveAnimator;
-        [SerializeField] string moveAnimatorStringKey = "MOVE";
+        [SerializeField] protected Animator moveAnimator;
+        [SerializeField] protected string moveAnimatorStringKey = "MOVE";
         [SerializeField] protected Transform moveFlipAnchor;
         private IUnitMover baseUnitMover;
         public IUnitMover GetMover() => baseUnitMover;
@@ -165,7 +178,7 @@ namespace Fumorin.Units
                         {
                             moveAnimator.SetBool(moveAnimatorStringKey, true);
                         }
-                        LookFlipDirection(moveFlipAnchor, CurrentPosition + input);
+                        FlipTowardsWorldPosition(moveFlipAnchor, CurrentPosition + input);
                     }
                     break;
                 case MoveResult.Failed:

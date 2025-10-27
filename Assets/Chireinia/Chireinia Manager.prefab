@@ -202,7 +202,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: aaa134705ad741b4a8a88de21a14bcb8, type: 3}
+  m_Sprite: {fileID: 6759688343136247405, guid: ef5ca315275104f49953f94ed43e1891, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -239,6 +239,7 @@ GameObject:
   - component: {fileID: 5613225465238407719}
   - component: {fileID: 6257391809156751040}
   - component: {fileID: 8779239756304788068}
+  - component: {fileID: 8697872277299112960}
   m_Layer: 0
   m_Name: Chireinia Manager
   m_TagString: Untagged
@@ -322,10 +323,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee0ef5bfd585af2498df66fd36a0c580, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameScenes: {fileID: 0}
-  startingScene: {fileID: 0}
+  gameScenes: {fileID: 11400000, guid: 5b3a4bd01eea61d408eaa279709bb118, type: 2}
+  startingScene: {fileID: 11400000, guid: 4e342a493d7c94b4482af630302186d9, type: 2}
   loadingScreen: {fileID: 5692115559335127490}
   loadingScreenText: {fileID: 4949378241292881391}
+--- !u!114 &8697872277299112960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2198873988543359310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28aa53d02a527f042a1f4d58c8fac6a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lowD: {fileID: 8400000, guid: a353cb8b841a2364793f3773d071a2c9, type: 2}
+  medD: {fileID: 8400000, guid: 92ae708d1cc32e04284600bef41e8073, type: 2}
+  highD: {fileID: 8400000, guid: 54ca046f6a763db4b9029cf71cb4eee0, type: 2}
 --- !u!1 &2555962044450955102
 GameObject:
   m_ObjectHideFlags: 0

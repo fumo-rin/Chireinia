@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e27eabfa71ef1c246833483202d5596b, type: 3}
+  m_Name: Chireinia
+  m_EditorClassIdentifier: 
+  LobbyScenes: []
+  LevelScenes:
+  - sceneAsset: {fileID: 102900000, guid: 8c9cfa26abfee488c85f1582747f6a02, type: 3}
+    scenePath: Assets/Chireinia/Scenes/Levels/Chireinia Level.unity
+  BossScenes: []
+  ShopScenes: []
+  ExtraScenes:
+  - sceneAsset: {fileID: 102900000, guid: b85b51868dd0a874dad1ff811b7b56b4, type: 3}
+    scenePath: Assets/Chireinia/Scenes/Extras/Chireinia Background.unity
+  - sceneAsset: {fileID: 102900000, guid: 4c58b091da5d9b14b8732a5a06084632, type: 3}
+    scenePath: Assets/Chireinia/Scenes/Extras/Chireinia Handlers.unity
+  - sceneAsset: {fileID: 102900000, guid: 0c634711660986e428abecdfe5fcd117, type: 3}
+    scenePath: Assets/Chireinia/Scenes/Extras/Chireinia UI.unity
+  SceneTemplates: []
+  lobbyScenesFolders:
+  - {fileID: 102900000, guid: a2b03e214a41760479632cefc0772fbf, type: 3}
+  levelScenesFolders:
+  - {fileID: 102900000, guid: fdb3dbcdb1b0cca469b9529ce9e8889c, type: 3}
+  bossSceneFolders:
+  - {fileID: 102900000, guid: 353937396863bed49b1897b4fa9d82e5, type: 3}
+  shopSceneFolders:
+  - {fileID: 102900000, guid: 0f59d088b14a60f48a88d48b0bbe7344, type: 3}
+  extraSceneFolders:
+  - {fileID: 102900000, guid: 2de34338334e9e1488c061f4001b4f8d, type: 3}
+  sceneTemplateFolders:
+  - {fileID: 102900000, guid: 5a2c05cd2475a494bb907d00515ff619, type: 3}
+  permanentSceneFolders:
+  - {fileID: 102900000, guid: e62841de246ee66409bc5e097090babd, type: 3}
+  scenePairSOFolders:
+  - {fileID: 102900000, guid: 1eadc1164f490924fba86019965ee7ec, type: 3}
