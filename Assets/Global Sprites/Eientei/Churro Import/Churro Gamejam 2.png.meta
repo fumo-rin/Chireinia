@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 1c8e30d2b4c065b4ba97666fb784c9f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8256710981404350905
+    second: Churro Gamejam 2_0
+  - first:
+      213: 1088408239494225243
+    second: Churro Gamejam 2_1
+  - first:
+      213: 215730074339471148
+    second: Churro Gamejam 2_2
+  - first:
+      213: 8768168878216600757
+    second: Churro Gamejam 2_3
+  - first:
+      213: 8166244522193198322
+    second: Churro Gamejam 2_4
+  - first:
+      213: -436295746914150899
+    second: Churro Gamejam 2_5
+  - first:
+      213: 3990509488162216887
+    second: Churro Gamejam 2_6
+  - first:
+      213: 536342256717420646
+    second: Churro Gamejam 2_7
+  - first:
+      213: -5638268653413231246
+    second: Churro Gamejam 2_8
+  - first:
+      213: -4616794461325948176
+    second: Churro Gamejam 2_9
+  - first:
+      213: 8833755222151901583
+    second: Churro Gamejam 2_10
+  - first:
+      213: 930668809835733090
+    second: Churro Gamejam 2_11
+  - first:
+      213: -2711854751932123823
+    second: Churro Gamejam 2_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Churro Gamejam 2_0
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 446
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b95ca344eab59270800000000000000
+      internalID: 8256710981404350905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Churro Gamejam 2_1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 448
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d59a5f68dca1f00800000000000000
+      internalID: 1088408239494225243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Churro Gamejam 2_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 370
+        width: 141
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f6f501c5d6ef200800000000000000
+      internalID: 215730074339471148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Churro Gamejam 2_3
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 416
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc5cb4932bcea970800000000000000
+      internalID: 8768168878216600757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Churro Gamejam 2_4
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 300
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc1e465024545170800000000000000
+      internalID: 8166244522193198322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Churro Gamejam 2_5
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 304
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d061b2c6457f1f9f0800000000000000
+      internalID: -436295746914150899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Churro Gamejam 2_6
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 111
+        width: 161
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb1cb2ac33216730800000000000000
+      internalID: 3990509488162216887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Churro Gamejam 2_7
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 249
+        width: 84
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6685ca9d078717700800000000000000
+      internalID: 536342256717420646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Churro Gamejam 2_8
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 252
+        width: 92
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27595155888d0c1b0800000000000000
+      internalID: -5638268653413231246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Churro Gamejam 2_9
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 168
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa0da3f5e9ddefb0800000000000000
+      internalID: -4616794461325948176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Churro Gamejam 2_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 171
+        width: 59
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81bd11429dc79a70800000000000000
+      internalID: 8833755222151901583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Churro Gamejam 2_11
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 75
+        width: 29
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2606bc50a566aec00800000000000000
+      internalID: 930668809835733090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Churro Gamejam 2_12
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 70
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15571ac987e8d5ad0800000000000000
+      internalID: -2711854751932123823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Churro Gamejam 2_0: 8256710981404350905
+      Churro Gamejam 2_1: 1088408239494225243
+      Churro Gamejam 2_10: 8833755222151901583
+      Churro Gamejam 2_11: 930668809835733090
+      Churro Gamejam 2_12: -2711854751932123823
+      Churro Gamejam 2_2: 215730074339471148
+      Churro Gamejam 2_3: 8768168878216600757
+      Churro Gamejam 2_4: 8166244522193198322
+      Churro Gamejam 2_5: -436295746914150899
+      Churro Gamejam 2_6: 3990509488162216887
+      Churro Gamejam 2_7: 536342256717420646
+      Churro Gamejam 2_8: -5638268653413231246
+      Churro Gamejam 2_9: -4616794461325948176
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

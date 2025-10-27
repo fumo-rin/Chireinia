@@ -1,0 +1,39 @@
+fileFormatVersion: 2
+guid: 5f54f42bfe5da41409a8c70d6297904c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -701934305, guid: 043f56a1911ade618a683298c33b36ce, type: 3}
+  generateFile: 1
+  generateTo: <root>/<dir>/<subpath>/<name><anim?(/<name> +):(.<ext>)>.<format>
+  generationMode: 0
+  textureShape: 0
+  textureImportation:
+    sRGB: 1
+    alphaIsTransparency: 1
+    readWrite: 0
+    generateMipmaps: 0
+    wrapMode:
+      u: 0
+      v: 0
+      w: 0
+    filterMode: 0
+    anisoLevel: 1
+    format: -1
+    compression: 1
+  spriteMode: 1
+  slicing:
+    margin: {x: 0, y: 0, z: 0, w: 0}
+  spriteImportation:
+    worldUnit:
+      amount: 100
+      unit: 2
+    meshType: 1
+    extrudeEdges: 1
+    generatePhysicsShape: 1
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}

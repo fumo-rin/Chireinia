@@ -1,0 +1,369 @@
+fileFormatVersion: 2
+guid: 3c2bf79c98b702947bbd1c84c566b7f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7184335248751653249
+    second: Hood reisen_001_0
+  - first:
+      213: -4968559548665507004
+    second: Hood reisen_001_1
+  - first:
+      213: -1472054775964299470
+    second: Hood reisen_001_2
+  - first:
+      213: -6945128302296512173
+    second: Hood reisen_001_3
+  - first:
+      213: 9103581653265026871
+    second: Hood reisen_001_4
+  - first:
+      213: -3968680190481671770
+    second: Hood reisen_001_5
+  - first:
+      213: -6241389087159821947
+    second: Hood reisen_001_6
+  - first:
+      213: -7060393219219470766
+    second: Hood reisen_001_7
+  - first:
+      213: 4099524625714144494
+    second: Hood reisen_001_8
+  - first:
+      213: 4262219395897131191
+    second: Hood reisen_001_9
+  - first:
+      213: 3857267888044406933
+    second: Hood reisen_001_10
+  - first:
+      213: 1316320349489550825
+    second: Hood reisen_001_11
+  - first:
+      213: 8196420468635485752
+    second: Hood reisen_001_12
+  - first:
+      213: -6584519989824569347
+    second: Hood reisen_001_13
+  - first:
+      213: -1240590774237119123
+    second: Hood reisen_001_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Reisen Face 1
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 409
+        width: 55
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e07dec72d1c4c90800000000000000
+      internalID: -7184335248751653249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reisen Torso
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 307
+        width: 99
+        height: 179
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359ca1e1b92fd9f90800000000000000
+      internalID: -6945128302296512173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reisen Hair
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 157
+        width: 132
+        height: 277
+      alignment: 9
+      pivot: {x: 0.54683465, y: 0.9742646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f00a2e74b665e70800000000000000
+      internalID: 9103581653265026871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reisen Face 2
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 321
+        width: 55
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589d6da81b12269a0800000000000000
+      internalID: -6241389087159821947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reisen Ear L
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 186
+        width: 26
+        height: 85
+      alignment: 9
+      pivot: {x: 0.48018587, y: 0.06967199}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598786e15b4c78530800000000000000
+      internalID: 3857267888044406933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reisen Ear R
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 181
+        width: 46
+        height: 67
+      alignment: 9
+      pivot: {x: 0.1528128, y: 0.06940039}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e551f93262844210800000000000000
+      internalID: 1316320349489550825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reisen Arm
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 209
+        width: 65
+        height: 41
+      alignment: 9
+      pivot: {x: 0.08785541, y: 0.44973865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83642ce5df88fb170800000000000000
+      internalID: 8196420468635485752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reisen Head
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 16
+        width: 127
+        height: 126
+      alignment: 9
+      pivot: {x: 0.49188688, y: 0.26285288}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff3c0e94f51f94a0800000000000000
+      internalID: -6584519989824569347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reisen Leg
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 88
+        width: 24
+        height: 71
+      alignment: 9
+      pivot: {x: 0.5214653, y: 0.9208524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d38f5834988cee0800000000000000
+      internalID: -1240590774237119123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4e59926fc6054ff4b98731215273ce4b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Reisen Arm: 8196420468635485752
+      Reisen Ear L: 3857267888044406933
+      Reisen Ear R: 1316320349489550825
+      Reisen Face 1: -7184335248751653249
+      Reisen Face 2: -6241389087159821947
+      Reisen Hair: 9103581653265026871
+      Reisen Head: -6584519989824569347
+      Reisen Leg: -1240590774237119123
+      Reisen Torso: -6945128302296512173
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

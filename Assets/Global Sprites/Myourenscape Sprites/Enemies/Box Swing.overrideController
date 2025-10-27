@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Box Swing
+  m_Controller: {fileID: 9100000, guid: 1c07cffabe60b0a4695403185d457784, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 1b8099a544c8a464b91348891b1a5599, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f1112f2ea18eb68458621846cd1910fc, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 04a7aadeb4e933c4985241fb52597d54, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 64a435a2c48e8b941b0993fd7d5f3bf0, type: 2}
