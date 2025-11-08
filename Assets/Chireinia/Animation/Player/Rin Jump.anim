@@ -104,8 +104,17 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
+        time: 0.26666668
+        value: {x: 0, y: 0, z: 7.342}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
         time: 0.4
-        value: {x: 0, y: 0, z: 57.031}
+        value: {x: 0, y: 0, z: -30.716}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -372,15 +381,15 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.26666668
         value: {x: 0.766, y: 0.34, z: 0}
-        inSlope: {x: 0, y: 0.75000024, z: 0}
-        outSlope: {x: 0, y: 0.75000024, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.4
-        value: {x: 0.621, y: 0.717, z: 0}
+        value: {x: 0.525, y: 0.29, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -1188,7 +1197,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.4
-        value: 0.621
+        value: 0.525
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1228,15 +1237,15 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.26666668
         value: 0.34
-        inSlope: 0.75000024
-        outSlope: 0.75000024
+        inSlope: 0
+        outSlope: 0
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.4
-        value: 0.717
+        value: 0.29
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1322,6 +1331,15 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
+        time: 0.26666668
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
         time: 0.4
         value: 0
         inSlope: 0
@@ -1353,6 +1371,15 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.13333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.26666668
         value: 0
         inSlope: 0
         outSlope: 0
@@ -1400,8 +1427,17 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
+        time: 0.26666668
+        value: 7.342
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
         time: 0.4
-        value: 57.031
+        value: -30.716
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2460,7 +2496,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Root Bone/Hand Bone R
+    path: Root Bone/Tail Bone
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2472,7 +2508,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Root Bone/Hand Bone R
+    path: Root Bone/Tail Bone
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2484,7 +2520,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Root Bone/Hand Bone R
+    path: Root Bone/Tail Bone
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2568,7 +2604,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Root Bone/Tail Bone
+    path: Root Bone/Hand Bone R
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2580,7 +2616,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Root Bone/Tail Bone
+    path: Root Bone/Hand Bone R
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2592,7 +2628,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Root Bone/Tail Bone
+    path: Root Bone/Hand Bone R
     classID: 4
     script: {fileID: 0}
     flags: 0

@@ -53,11 +53,14 @@ TagManager:
   - name: Units
     uniqueID: 3137109691
     locked: 0
+  - name: Terrain Foreground
+    uniqueID: 3529154009
+    locked: 0
+  - name: Pickups
+    uniqueID: 1697158019
+    locked: 0
   - name: Projectiles
     uniqueID: 3010814945
-    locked: 0
-  - name: Foreground
-    uniqueID: 3529154009
     locked: 0
   m_RenderingLayers:
   - Default

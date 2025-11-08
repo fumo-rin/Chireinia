@@ -741,7 +741,6 @@ namespace FumoCore.Tools
   "dry hump",
   "dryhump",
   "duche",
-  "dudette",
   "dumass",
   "dumb ass",
   "dumbass",
